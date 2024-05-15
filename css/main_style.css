@@ -1,0 +1,73 @@
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 420;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUhiZTaR.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+	color:#C93A1B;
+}
+
+p, div{
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+}
+
+.bgimg {
+    background-image: url(/img/pb.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bottommiddle {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
