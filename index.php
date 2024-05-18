@@ -35,7 +35,7 @@
 				</div>
 			</div>
 		</div>
-		<a href="extras/experimental.mp3" class="download-btn" download></a>
+		<a href="audio/experimental.mp3" class="download-btn" download></a>
 		<audio style="width: 0%" preload="none" controls>
 		<source src="" type="audio/mpeg">
 		</audio>
@@ -66,7 +66,7 @@
 					<label for="playing-'.$i.'"></label>';
 					
 					// Lyrics
-					if (file_exists('extras/songs/'.pathinfo($cur, PATHINFO_FILENAME).'.txt'))
+					if (file_exists('audio/'.pathinfo($cur, PATHINFO_FILENAME).'.txt'))
 					{
 						echo '
 						<div class="lyrics">
